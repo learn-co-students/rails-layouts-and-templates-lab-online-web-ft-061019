@@ -14,4 +14,5 @@ RSpec.describe StaticController, type: :controller do
       expect(page.find("h2").text).to eq("Welcome to Flatiron Widgets")
     end
   end
+
 end
